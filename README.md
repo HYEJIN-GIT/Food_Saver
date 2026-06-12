@@ -1,16 +1,37 @@
-# React + Vite
+# 🥬 냉장고 파먹기
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+- 냉장고 속 식재료를 효율적으로 관리하여 음식물 쓰레기를 줄이고, 불필요한 식재료 구매를 방지하기 위한 웹/앱 서비스입니다.
 
-Currently, two official plugins are available:
+## 📌 프로젝트 소개
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+많은 사람들이 냉장고 안에 어떤 식재료가 있는지 잊어버려 같은 재료를 다시 구매하거나 유통기한이 지나 버리는 경험을 합니다.
 
-## React Compiler
+이 프로젝트는 사용자가 냉장고 속 식재료를 한눈에 관리하고, 소비를 유도하여 음식물 쓰레기와 불필요한 지출을 줄일 수 있도록 돕는 서비스입니다.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
 
-## Expanding the ESLint configuration
+## 🎯 주요 목표
+1. 음식물 쓰레기 감소
+2. 불필요한 식재료 구매 방지
+3. 냉장고 속 재료 시각화
+4. 유통기한 기반 알림 기능 제공
+5. 간편한 식재료 관리
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🖥️ 랜딩 페이지
+
+- 사용자가 처음 방문하면 냉장고 UI를 확인할 수 있습니다.
+
+### 냉동실
+- 냉동실 문 클릭
+- 문 열림 애니메이션
+- 내부 식재료 미리보기
+
+ex)
+
+🥚 계란 D - 2 <br>
+🥛 우유 D - 4  <br>
+🥬 채소 D - 6  <br>
+
+### 냉장실
+- 냉장실 문 클릭
+- 문 열림 애니메이션
+- 로그인 및 서비스 시작 유도
