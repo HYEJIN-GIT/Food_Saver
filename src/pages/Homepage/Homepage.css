@@ -1,0 +1,67 @@
+.main-box {
+  
+    min-height: 100vh;
+  
+  }
+.main-section {
+    margin-top:70px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+ .fridge-box {
+
+    width: 250px;
+    height:500px;
+  }  
+
+
+.freezer{
+    position: relative;
+    border-radius: 10px;
+    height: 180px;
+    background: #def2dc;
+    cursor: pointer;
+ 
+}
+
+.refrigerator{
+
+    margin-top: 1px;
+    background: #def2dc;
+    height: 320px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+
+.freezer-inside{
+  position: absolute;
+  top:40px;
+  /* transition: 0.5s ease; */
+}
+
+.freezer-door.open{
+   /* position: absolute; */
+   height: 180px;
+   width: 250px;
+   background: #def2dc;
+   border-radius: 10px;
+   z-index: auto;
+   transform: rotateY(-90deg);
+
+}
+
+.freezer-door{
+    /* position: absolute; */
+    height: 180px;
+    width: 250px;
+    background: #def2dc;
+    border-radius: 10px;
+    z-index: auto;
+    transform: rotateY(0deg);
+    transition: transform 0.5s ease;
+    transform-origin: left center;
+  
+ }
